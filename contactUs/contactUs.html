@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contactUs.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">AHOY Barbershop</div>
+        <div class="button" id="navLinks">
+            <a class="link" href="../home/home.html">Home</a>
+            <a class="link" href="../aboutUs/aboutUs.html">About Us</a>
+            <a class="link" href="../ourHaircut/ourHaircut.html">Our Haircuts</a>
+            <a class="link active" href="../contactUs/contactUs.html">Contact Us</a>
+            <a class="link" href="../membership/membership.html">Membership</a>
+        </div>
+        <div class="hamburger" id="hamburgerMenu">
+            &#9776;
+        </div>
+    </nav>
+    
+
+    <div class="contactus">
+        <div class="ContactUstext">
+            Contact US!
+        </div>
+
+        <div class="contactusContent">
+            <div class="cutext">
+                We'd love to hear from you! Reach out to us for appointments, inquiries, or feedback.
+            </div>
+            <div class="contactmedia">
+                <div class="contact">
+                    <img src="../assets/icons8-email-50.png" alt="a">
+                    <div class="contactDetail">
+                        aa@testmail.com
+                    </div>
+                </div>
+                <div class="contact">
+                    <img src="../assets/icons8-location-50 (1).png" alt="a">
+                    <div class="contactDetail">
+                        jalan kemanggisan
+                    </div>
+                </div>
+                <div class="contact">
+                    <img src="../assets/icons8-phone-50.png" alt="a">
+                    <div class="contactDetail">
+                        +62 0812345345567
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+    <div class="maps">
+        <img src="../assets/maps.jpg" alt="Map Placeholder" class="mapImage">
+    </div>
+    
+
+    <form action="/contact-submit" method="POST" class="contact-form">
+        <label for="contact-name">Name:</label>
+        <input type="text" id="contact-name" name="contact-name" required><br><br>
+
+        <label for="contact-email">Email:</label>
+        <input type="email" id="contact-email" name="contact-email" required><br><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Write your message here..." required></textarea><br><br>
+
+        <input type="submit" value="Send Message">
+    </form>
+
+    <div class="footer">
+        <div class="footerContent">
+            <p class="footerText">© 2024 Your Company. All rights reserved.</p>
+            <div class="socialIcons">
+                <a href="#" class="icon">
+                    <img src="../assets/facebook.png" alt="Facebook">
+                </a>
+                <a href="#" class="icon">
+                    <img src="../assets/x.png" alt="X">
+                </a>
+                <a href="#" class="icon">
+                    <img src="../assets/instagram.png" alt="Instagram">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="navbar_script.js"></script>
+
+</body>
+</html>
